@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Details"
+  >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/img1"
+        android:layout_width="match_parent"
+        android:layout_height="135dp">
+
+    </ImageButton>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="125dp"
+        android:layout_height="43dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="169dp"
+        android:layout_marginEnd="309dp"
+        android:layout_marginRight="309dp"
+        android:layout_marginBottom="14dp"
+        android:shadowColor="#FFFFFF"
+        android:text="Prix"
+        android:textColor="#D12626"
+        android:textColorLink="#FFFFFF"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/URL"
+        android:layout_width="422dp"
+        android:layout_height="48dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="580dp"
+        android:layout_marginEnd="-10dp"
+        android:layout_marginRight="-10dp"
+        android:layout_marginBottom="14dp"
+        android:shadowColor="#FFFFFF"
+        android:text="https://www.amazon.com/"
+        android:textColor="#000000"
+        android:textColorLink="#FFFFFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="421dp"
+        android:layout_height="48dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="482dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="14dp"
+        android:shadowColor="#FFFFFF"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris convallis nulla molestie mollis rhoncus."
+        android:textColor="#0B0A0A"
+        android:textColorLink="#FFFFFF"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="421dp"
+        android:layout_height="48dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="375dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="14dp"
+        android:shadowColor="#FFFFFF"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris convallis nulla molestie mollis rhoncus."
+        android:textColor="#0B0A0A"
+        android:textColorLink="#FFFFFF"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="432dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="534dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="14dp"
+        android:shadowColor="#FFFFFF"
+        android:text="Lien"
+        android:textColor="#D12626"
+        android:textColorLink="#FFFFFF"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="404dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="429dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="14dp"
+        android:shadowColor="#FFFFFF"
+        android:text="Livraison"
+        android:textColor="#D12626"
+        android:textColorLink="#FFFFFF"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="432dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="321dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="14dp"
+        android:shadowColor="#FFFFFF"
+        android:text="Description"
+        android:textColor="#D12626"
+        android:textColorLink="#FFFFFF"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/prix"
+        android:layout_width="354dp"
+        android:layout_height="59dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="293dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginRight="39dp"
+        android:layout_marginBottom="14dp"
+        android:shadowColor="#FFFFFF"
+        android:textColor="#D12626"
+        android:textColorLink="#FFFFFF"
+        android:textSize="36sp" />
+
+    <RadioGroup
+        android:id="@+id/g1"
+        android:layout_width="wrap_content"
+        android:layout_height="78dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="-11dp"
+        android:layout_marginLeft="-11dp"
+        android:layout_marginTop="215dp"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginRight="-1dp"
+        android:layout_marginBottom="493dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/R2"
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
+            android:text="Avec Garantie ?"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/R1"
+            android:layout_width="336dp"
+            android:layout_height="47dp"
+
+
+            android:linksClickable="false"
+            android:text="Sans Garantie?"
+            android:textSize="24sp" />
+
+
+    </RadioGroup>
+
+</RelativeLayout>
+</ScrollView>
